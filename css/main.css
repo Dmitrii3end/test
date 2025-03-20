@@ -147,6 +147,9 @@ h1{
     font-family: var(--second-font);
     font-size: 30px;
     margin-top: 20px;
+    opacity: 0;
+    transition: opacity 3s;
+    animation: oppac 3s 4s 1 forwards;
 }
 
 .leaf-container{
